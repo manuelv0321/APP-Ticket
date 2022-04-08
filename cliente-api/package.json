@@ -1,0 +1,25 @@
+{
+  "name": "restapinode",
+  "version": "1.0.0",
+  "description": "Aprendiendo a crear rest api con node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "Randy Vasquez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.2",
+    "mongoose": "^6.1.8",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
